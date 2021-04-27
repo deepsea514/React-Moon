@@ -1,0 +1,8 @@
+@media not all and (min-resolution:.001dpcm) {
+    @media only screen and (max-device-width: 640px) {
+        /* Styles */
+        img.saf {
+            height: 200px;
+        }
+    }
+}

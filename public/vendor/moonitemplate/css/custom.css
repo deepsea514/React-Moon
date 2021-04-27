@@ -1,0 +1,188 @@
+.fancybox-is-open .fancybox-bg {
+    opacity: 0.7;
+}
+.stake-modal {
+    max-width: 600px;
+    padding: 70px;
+    text-align: left;
+    border-radius: 20px;
+}
+.stake-modal .title {
+    color: white;
+}
+.stake-modal label {
+    color: white;
+}
+.stake-modal input {
+    font-size: 18px !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.stake-section {
+    background-image: url(../images/stats-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.stake-section .card {
+    background: #161616;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+.stake-section .card .btn-rounded {
+    border-radius: 20px;
+}
+.stake-section .card .btn.btn-medium {
+    padding: 10px 0;
+}
+.stake-section .card .card-body {
+    padding: 36px 36px 30px 36px;
+}
+.stake-section .card .card-footer {
+    padding: 30px 36px 36px 36px;
+    border-top: 1px solid #797979;
+}
+@media (max-width: 992px) {
+    .stake-section .card {
+        max-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.stake-period-single.nice-select {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #797979;
+}
+.stake-period-single.nice-select:hover {
+    border-color: #887c1c;
+}
+.stake-period-single.nice-select .list{
+    width: 100%;
+}
+.stake-period-single.nice-select .option:hover {
+    background-color: #887c1c;
+}
+
+.balance-section {
+    background-image: url(../images/stats-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0 80px 0px;
+    min-height: 600px;
+}
+.balance-section .select-div {
+    border-radius: 20px;
+    background-color: #161616;
+    padding: 10px;
+}
+.balance-section .select-div .menu-div {
+    position: relative;
+    align-items: center;
+}
+.balance-section .select-div .menu-div .dropdown-icon div {
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+.balance-section .select-div.open .menu-div .dropdown-icon div {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.balance-section .select-div .dropdown-div {
+    padding: 20px 50px 10px 50px;
+}
+/* .balance-section .select-div .dropdown-div .form-control {
+    border: none;
+    border-bottom: 2px solid #797979;
+    padding: 10px 0;
+    background: transparent;
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: border .9s ease;
+    -o-transition: border .9s ease;
+    transition: border .9s ease;
+}
+.balance-section .select-div .dropdown-div .form-control:focus {
+    border-color: #887c1c;
+} */
+.balance-section .select-div .dropdown-div .card {
+    background: #161616;
+    border-radius: 20px;
+    border: 1px solid #401677;
+}
+.balance-section .select-div .dropdown-div .card .btn-rounded {
+    border-radius: 20px;
+}
+.balance-section .select-div .dropdown-div .card .btn.btn-medium {
+    padding: 10px 0;
+}
+.balance-section .select-div .btn-rounded {
+    border-radius: 20px;
+}
+.balance-section .select-div .btn.btn-medium {
+    padding: 10px 0;
+}
+
+.modal-content {
+    border-radius: 20px;
+    background-color: #1e1e25;
+    border: 1px solid #3a3939;
+}
+.modal-content .modal-header {
+    border-bottom: 1px solid #3a3939;
+    padding: 22px 32px;
+}
+.modal-content .modal-body {
+    padding: 22px 32px;
+}
+.modal-content .modal-body .error {
+    display: none;
+}
+.modal-content .modal-body.has-error .error  {
+    display: block;
+    color: #ff57c3;
+}
+.modal-content .modal-body.has-error .invalid {
+    border: 1px solid #ff57c3;
+}
+.modal-content .modal-body .wallet-div {
+    background: #252627;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.modal-content .modal-body .wallet-div:hover {
+    background: #2d2e2f;
+  }
+.modal-content .form-control {
+    border: none;
+    width: inherit;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    background: #2b243a;
+    font-weight: normal;
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+    color: #9181b3;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: border .9s ease;
+    -o-transition: border .9s ease;
+    transition: border .9s ease;
+}

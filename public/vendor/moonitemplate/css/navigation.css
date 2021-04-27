@@ -1,0 +1,89 @@
+.agency.tp-bullets{
+    height: 110px !important;
+    width: 19px !important;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.agency .tp-bullet{
+    position:relative;
+    display: contents;
+    background: transparent;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+.single-slide .agency .tp-bullet{
+    display: none !important;
+}
+
+.agency .tp-bullet .tp-bullet-inner{
+    width: 10px;
+    height: 10px;
+    position:relative;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    box-sizing: content-box;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.dark-slider .agency .tp-bullet .tp-bullet-inner{
+    border: 3px solid #4d4d4d;
+}
+
+.agency .tp-bullet.selected .tp-bullet-inner{
+    transform: scale(1.5);
+    margin-top:2px;
+    background: transparent;
+    border-color: #887c1c;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.dark-slider .agency .tp-bullet.selected .tp-bullet-inner{
+    background: transparent;
+}
+
+.agency .tp-bullet:not(:last-child) .tp-line{
+    height: 20px;
+    width: 3px;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-right: 9px;
+}
+
+.dark-slider .agency .tp-bullet:not(:last-child) .tp-line{
+    background: #4d4d4d;
+}
+
+/*SLIDER SOCIAL ICONS*/
+
+.revicon {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 34px;
+    z-index: 11;
+    position: absolute;
+}
+
+.revicon li a{
+    color: #ffffff !important;
+}
+
+.revicon li a:hover{
+    color: #ffffff;
+}
