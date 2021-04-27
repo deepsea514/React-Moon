@@ -4,12 +4,81 @@ class Balance extends Component {
     render() {
         return (
             <>
+                <header>
+                    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+                        <div class="container">
+                            <a href="#slider-section" title="Logo" class="logo scroll">
+                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" class="ml-lg-3 m-0" />
+                            </a>
+
+                            <div class="collapse navbar-collapse" id="megaone">
+                                <div class="navbar-nav ml-auto">
+                                    <a class="nav-link line" href="index.html">Home</a>
+                                    <a class="nav-link line" href="stake.html">Stake</a>
+                                    <a class="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="navigation-toggle">
+                            <ul class="slider-social toggle-btn my-0">
+                                <li>
+                                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="side-menu hidden">
+
+                        <span id="btn_sideNavClose">
+                            <i class="las la-times btn-close"></i>
+                        </span>
+                        <div class="inner-wrapper">
+                            <nav class="side-nav w-100">
+                                <a href="#slider-section" title="Logo" class="logo scroll navbar-brand">
+                                    <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" />
+                                </a>
+                                <ul class="navbar-nav text-capitalize">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="stake.html">Stake</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="side-footer w-100">
+                                <ul class="social-icons-simple">
+                                    <li><a class="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i class="fab fa-telegram-plane"></i> </a> </li>
+                                    <li><a class="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i class="fab fa-medium"></i> </a> </li>
+                                </ul>
+                                <p>&copy; 2021 M O O N I DeFi - Binance Smart Chain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="close_side_menu" href="javascript:void(0);"></a>
+                </header>
+
                 <div className="balance-section">
                     <div className="container">
                         <div className="select-div mb-4 font-weight-500">
                             <div className="row menu-div">
                                 <div className="col-3 d-flex align-items-center mr-3">
-                                    <img className="" width="90px" src="moonitemplate/images/mooni_logo.png" alt="image" />
+                                    <img className="" width="90px" src="/vendor/moonitemplate/images/mooni_logo.png" alt="image" />
                                     <div>
                                         <p className="text-white mb-1">FARMING</p>
                                         <h5 className="text-pink mb-1 font-weight-600">MOONI</h5>
@@ -80,7 +149,7 @@ class Balance extends Component {
                         <div className="select-div mb-4 font-weight-500">
                             <div className="row menu-div">
                                 <div className="col-3 d-flex align-items-center mr-3">
-                                    <img className="" width="90px" src="moonitemplate/images/mooni_logo.png" alt="image" />
+                                    <img className="" width="90px" src="/vendor/moonitemplate/images/mooni_logo.png" alt="image" />
                                     <div>
                                         <p className="text-white mb-1">FARMING</p>
                                         <h5 className="text-pink mb-1 font-weight-600">MOONI</h5>
@@ -226,11 +295,11 @@ class Balance extends Component {
                             <div className="modal-body">
                                 <div className="d-flex justify-content-between align-items-center wallet-div" data-dismiss="modal">
                                     <p className="text-white mb-0">Metamask</p>
-                                    <img width="30px" src="moonitemplate/images/metamask.png" alt="image" />
+                                    <img width="30px" src="/vendor/moonitemplate/images/metamask.png" alt="image" />
                                 </div>
                                 <div className="d-flex justify-content-between align-items-center wallet-div" data-dismiss="modal">
                                     <p className="text-white mb-0">Metamask</p>
-                                    <img width="30px" src="moonitemplate/images/metamask.png" alt="image" />
+                                    <img width="30px" src="/vendor/moonitemplate/images/metamask.png" alt="image" />
                                 </div>
                             </div>
                         </div>

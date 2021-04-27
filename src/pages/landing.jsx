@@ -4,12 +4,120 @@ class Landing extends Component {
     render() {
         return (
             <>
+                <header>
+                    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+                        <div class="container">
+                            <a href="#slider-section" title="Logo" class="logo scroll">
+                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" class="ml-lg-3 m-0" />
+                            </a>
+
+                            <div class="collapse navbar-collapse" id="megaone">
+                                <div class="navbar-nav ml-auto">
+                                    <a class="nav-link scroll line" href="#slider-section">Home</a>
+                                    <a class="nav-link line" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
+                                    <a class="nav-link scroll line" href="#about">About</a>
+                                    <a class="nav-link scroll line" href="#partner">Partner</a>
+                                    <a class="nav-link scroll line" href="#roadmap">Roadmap</a>
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="navigation-toggle">
+                            <ul class="slider-social toggle-btn my-0">
+                                <li>
+                                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="side-menu hidden">
+
+                        <span id="btn_sideNavClose">
+                            <i class="las la-times btn-close"></i>
+                        </span>
+                        <div class="inner-wrapper">
+                            <nav class="side-nav w-100">
+                                <a href="#slider-section" title="Logo" class="logo scroll navbar-brand">
+                                    <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" />
+                                </a>
+                                <ul class="navbar-nav text-capitalize">
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" href="#slider-section">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" href="#about">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" href="#partner">Partner</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" href="#roadmap">Roadmap</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="side-footer w-100">
+                                <ul class="social-icons-simple">
+                                    <li><a class="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i class="fab fa-telegram-plane"></i> </a> </li>
+                                    <li><a class="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i class="fab fa-medium"></i> </a> </li>
+                                </ul>
+                                <p>&copy; 2021 M O O N I DeFi - Binance Smart Chain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="close_side_menu" href="javascript:void(0);"></a>
+
+                    <div class="quote-content hidden animated-modal stake-modal" id="animatedModal">
+
+                        <div class="title mb-5">
+                            <h2><span class="text-pink js-rotating">$, $</span> 100.00</h2>
+                        </div>
+                        <form class="contact-form" id="modal-contact-form-data">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <label class="col-3">Amount</label>
+                                        <input class="form-control col-8" id="amount" name="amount" required=""
+                                            type="number" />
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-3">Period</label>
+                                        <select class="col-8 stake-period-single" name="period">
+                                            <option value="AL">1 day</option>
+                                            <option value="WY">1 week</option>
+                                            <option value="WY">1 month</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12" style={{ marginTop: "20px" }}>
+                                    <a href="stake.html" class="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="stake_submit_btn">Stake</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </header>
+
                 <div id="slider-section" className="slider-section">
                     <div id="revo_main_wrapper" className="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark" data-alias="classic4export" data-source="gallery">
                         <div id="vertical-bullets" className="rev_slider fullwidthabanner white vertical-tpb" data-version="5.4.1">
                             <ul>
                                 <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="01">
-                                    <img src="moonitemplate/images/background_header.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" data-no-retina />
+                                    <img src="/vendor/moonitemplate/images/background_header.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" data-no-retina />
                                     <div className="bg-overlay bg-black opacity-4"></div>
                                     <div className="tp-caption tp-resizeme"
                                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -146,14 +254,14 @@ class Landing extends Component {
                             </div>
                         </div>
                         <div className="d-flex justify-content-center wow bounceInLeft" data-wow-delay="300ms">
-                            <img className="saf" height="300px" src="moonitemplate/images/blockchain_mooni_image.webp" alt="About-Us" />
+                            <img className="saf" height="300px" src="/vendor/moonitemplate/images/blockchain_mooni_image.webp" alt="About-Us" />
                         </div>
                         <br /><br /><br />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-6 wow fadeInLeft" data-wow-delay="300ms">
                                     <div className="d-flex justify-content-center wow bounceInLeft" data-wow-delay="300ms">
-                                        <img className="saf" src="moonitemplate/images/mooni_launch.png" alt="About-Us" />
+                                        <img className="saf" src="/vendor/moonitemplate/images/mooni_launch.png" alt="About-Us" />
                                     </div>
                                 </div>
 
@@ -188,7 +296,7 @@ class Landing extends Component {
                                         Binance Smart Chain
                                     </p>
                                     <a href="https://flourmix.finance/" target="_blank">
-                                        <img className="saf" width="200px" src="moonitemplate/images/flourmix.webp" alt="Flourmix" />
+                                        <img className="saf" width="200px" src="/vendor/moonitemplate/images/flourmix.webp" alt="Flourmix" />
                                     </a>
                                 </div>
                             </div>
@@ -199,7 +307,7 @@ class Landing extends Component {
                 <section className="p-0" id="roadmap">
                     <div className="row" style={{ backgroundColor: "#ddd" }}>
                         <div className="col-12" style={{ textAlign: "center" }}>
-                            <img style={{ textAlign: "center" }} src="moonitemplate/images/Roadmap.webp" alt="Roadmap" />
+                            <img style={{ textAlign: "center" }} src="/vendor/moonitemplate/images/Roadmap.webp" alt="Roadmap" />
                         </div>
                     </div>
                     <div className="row">
