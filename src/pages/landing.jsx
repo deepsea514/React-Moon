@@ -124,7 +124,7 @@ class Landing extends Component {
                                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
                                         data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-65','-65']"
                                         data-width="none" data-height="none" data-type="text"
-                                        data-textAlign="['center','center','center','center']"
+                                        data-textalign="['center','center','center','center']"
                                         data-responsive_offset="on"
                                         data-beforeafter="before"
                                         data-transform_idle="o:1;"
@@ -137,7 +137,7 @@ class Landing extends Component {
                                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
                                         data-y="['middle','middle','middle','middle']" data-voffset="['20','20','30','30']"
                                         data-width="none" data-height="none" data-type="text"
-                                        data-textAlign="['center','center','center','center']"
+                                        data-textalign="['center','center','center','center']"
                                         data-responsive_offset="on"
                                         data-beforeafter="before"
                                         data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
@@ -151,7 +151,7 @@ class Landing extends Component {
                                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
                                         data-y="['middle','middle','middle','middle']" data-voffset="['95','95','100','100']"
                                         data-width="none" data-height="none" data-type="text"
-                                        data-textAlign="['right','center','center','center']"
+                                        data-textalign="['right','center','center','center']"
                                         data-responsive_offset="on"
                                         data-beforeafter="before"
                                         data-transform_idle="o:1;"
@@ -313,7 +313,7 @@ class Landing extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <iframe width="640" height="320" data-original-width="640" data-original-height="320" src="https://www.thinglink.com/mediacard/1432446840933974017" type="text/html" frameBorder="0" webkitallowFullScreen="" mozallowFullScreen="" allowFullScreen="" scrolling="no" style={{ width: "100%", height: "650px" }}></iframe>
+                            <iframe width="640" height="320" data-original-width="640" data-original-height="320" src="https://www.thinglink.com/mediacard/1432446840933974017" type="text/html" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen="" scrolling="no" style={{ width: "100%", height: "650px" }}></iframe>
                         </div>
                     </div>
                 </section>
