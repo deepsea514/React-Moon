@@ -219,7 +219,7 @@ class Balance extends Component {
                     </div>
                 </div>
 
-                <div className="modal fade" id="stakeModal" tabindex="-1" role="dialog" aria-labelledby="stakeModalLabel" aria-hidden="true">
+                <div className="modal fade" id="stakeModal" tabIndex="-1" role="dialog" aria-labelledby="stakeModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -254,7 +254,7 @@ class Balance extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="unstakeModal" tabindex="-1" role="dialog" aria-labelledby="unstakeModalLabel" aria-hidden="true">
+                <div className="modal fade" id="unstakeModal" tabIndex="-1" role="dialog" aria-labelledby="unstakeModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -283,7 +283,7 @@ class Balance extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="connectWalletModal" tabindex="-1" role="dialog" aria-labelledby="connectWalletModalLabel" aria-hidden="true">
+                <div className="modal fade" id="connectWalletModal" tabIndex="-1" role="dialog" aria-labelledby="connectWalletModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" role="document">
                         <div className="modal-content">
                             <div className="modal-header">

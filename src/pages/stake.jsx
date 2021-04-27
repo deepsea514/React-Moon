@@ -115,32 +115,34 @@ class Stake extends Component {
                                     <div>
                                         <button className="btn btn-medium btn-rounded btn-purple-outline" style={{ width: "100px", height: "40px", lineHeight: "18px" }}><i className="fas fa-check-circle"></i> Core</button>
                                     </div>
-                                    <div className="d-flex text-grey font-weight-600" style={{ cursor: "pointer" }}>
+                                    <div className="d-flex dropdown-icon text-grey" style={{ cursor: "pointer" }} data-toggle="collapse" data-target="#single_dropdown_div">
                                         <p className="mb-0 mr-2">Hide</p>
                                         <div>
                                             <i className="fas fa-chevron-down"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="d-flex justify-content-between mt-4">
-                                    <div>
-                                        <img width="30px" src="/vendor/moonitemplate/images/mooni_logo.png" alt="image" />
-                                        <span className="text-purple">Total</span>
+                                <div className="collapse" id="single_dropdown_div">
+                                    <div className="d-flex justify-content-between mt-4">
+                                        <div>
+                                            <img width="30px" src="/vendor/moonitemplate/images/mooni_logo.png" alt="image" />
+                                            <span className="text-purple">Total</span>
+                                        </div>
+                                        <p className="mb-0 text-white">NaN</p>
                                     </div>
-                                    <p className="mb-0 text-white">NaN</p>
-                                </div>
-                                <div>
-                                    <a href="#" className="text-grey font-weight-600">Add MOONI to MetaMask<img width="20px" src="/vendor/moonitemplate/images/metamask.png" alt="image" /></a>
-                                </div>
-                                <div>
-                                    <a href="#" className="text-grey font-weight-600">View project site</a>
+                                    <div>
+                                        <a href="#" className="text-grey font-weight-600">Add MOONI to MetaMask<img width="20px" src="/vendor/moonitemplate/images/metamask.png" alt="image" /></a>
+                                    </div>
+                                    <div>
+                                        <a href="#" className="text-grey font-weight-600">View project site</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="modal fade" id="depositModal" tabindex="-1" role="dialog" aria-labelledby="depositModalLabel" aria-hidden="true">
+                <div className="modal fade" id="depositModal" tabIndex="-1" role="dialog" aria-labelledby="depositModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -166,7 +168,7 @@ class Stake extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="connectWalletModal" tabindex="-1" role="dialog" aria-labelledby="connectWalletModalLabel" aria-hidden="true">
+                <div className="modal fade" id="connectWalletModal" tabIndex="-1" role="dialog" aria-labelledby="connectWalletModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
