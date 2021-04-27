@@ -79,7 +79,7 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-                    <a id="close_side_menu" href="javascript:void(0);"></a>
+                    <a id="close_side_menu" href="#"></a>
 
                     <div className="quote-content hidden animated-modal stake-modal" id="animatedModal">
 

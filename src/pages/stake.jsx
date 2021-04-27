@@ -70,7 +70,7 @@ class Stake extends Component {
                             </div>
                         </div>
                     </div>
-                    <a id="close_side_menu" href="javascript:void(0);"></a>
+                    <a id="close_side_menu" href="#"></a>
                 </header>
 
                 <div id="stake-section" className="stake-section">
