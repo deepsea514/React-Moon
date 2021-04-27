@@ -5,26 +5,26 @@ class Stake extends Component {
         return (
             <>
                 <header>
-                    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
-                        <div class="container">
-                            <a href="#slider-section" title="Logo" class="logo scroll">
-                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" class="ml-lg-3 m-0" />
+                    <nav className="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+                        <div className="container">
+                            <a href="#slider-section" title="Logo" className="logo scroll">
+                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" className="ml-lg-3 m-0" />
                             </a>
 
-                            <div class="collapse navbar-collapse" id="megaone">
-                                <div class="navbar-nav ml-auto">
-                                    <a class="nav-link line" href="index.html">Home</a>
-                                    <a class="nav-link line" href="stake.html">Stake</a>
-                                    <a class="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
-                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                            <div className="collapse navbar-collapse" id="megaone">
+                                <div className="navbar-nav ml-auto">
+                                    <a className="nav-link line" href="index.html">Home</a>
+                                    <a className="nav-link line" href="stake.html">Stake</a>
+                                    <a className="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" className="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="navigation-toggle">
-                            <ul class="slider-social toggle-btn my-0">
+                        <div className="navigation-toggle">
+                            <ul className="slider-social toggle-btn my-0">
                                 <li>
-                                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                                    <a href="javascript:void(0);" className="sidemenu_btn" id="sidemenu_toggle">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -34,37 +34,37 @@ class Stake extends Component {
                         </div>
                     </nav>
 
-                    <div class="side-menu hidden">
+                    <div className="side-menu hidden">
 
                         <span id="btn_sideNavClose">
-                            <i class="las la-times btn-close"></i>
+                            <i className="las la-times btn-close"></i>
                         </span>
-                        <div class="inner-wrapper">
-                            <nav class="side-nav w-100">
-                                <a href="#slider-section" title="Logo" class="logo scroll navbar-brand">
+                        <div className="inner-wrapper">
+                            <nav className="side-nav w-100">
+                                <a href="#slider-section" title="Logo" className="logo scroll navbar-brand">
                                     <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" />
                                 </a>
-                                <ul class="navbar-nav text-capitalize">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                <ul className="navbar-nav text-capitalize">
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="stake.html">Stake</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="stake.html">Stake</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                    <li className="nav-item">
+                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" className="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
                                     </li>
                                 </ul>
                             </nav>
 
-                            <div class="side-footer w-100">
-                                <ul class="social-icons-simple">
-                                    <li><a class="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
-                                    <li><a class="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i class="fab fa-telegram-plane"></i> </a> </li>
-                                    <li><a class="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i class="fab fa-medium"></i> </a> </li>
+                            <div className="side-footer w-100">
+                                <ul className="social-icons-simple">
+                                    <li><a className="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i className="fab fa-twitter"></i> </a> </li>
+                                    <li><a className="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i className="fab fa-telegram-plane"></i> </a> </li>
+                                    <li><a className="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i className="fab fa-medium"></i> </a> </li>
                                 </ul>
                                 <p>&copy; 2021 M O O N I DeFi - Binance Smart Chain</p>
                             </div>

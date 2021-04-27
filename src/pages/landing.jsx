@@ -5,28 +5,28 @@ class Landing extends Component {
         return (
             <>
                 <header>
-                    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
-                        <div class="container">
-                            <a href="#slider-section" title="Logo" class="logo scroll">
-                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" class="ml-lg-3 m-0" />
+                    <nav className="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+                        <div className="container">
+                            <a href="#slider-section" title="Logo" className="logo scroll">
+                                <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" className="ml-lg-3 m-0" />
                             </a>
 
-                            <div class="collapse navbar-collapse" id="megaone">
-                                <div class="navbar-nav ml-auto">
-                                    <a class="nav-link scroll line" href="#slider-section">Home</a>
-                                    <a class="nav-link line" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
-                                    <a class="nav-link scroll line" href="#about">About</a>
-                                    <a class="nav-link scroll line" href="#partner">Partner</a>
-                                    <a class="nav-link scroll line" href="#roadmap">Roadmap</a>
-                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                            <div className="collapse navbar-collapse" id="megaone">
+                                <div className="navbar-nav ml-auto">
+                                    <a className="nav-link scroll line" href="#slider-section">Home</a>
+                                    <a className="nav-link line" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
+                                    <a className="nav-link scroll line" href="#about">About</a>
+                                    <a className="nav-link scroll line" href="#partner">Partner</a>
+                                    <a className="nav-link scroll line" href="#roadmap">Roadmap</a>
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" className="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="navigation-toggle">
-                            <ul class="slider-social toggle-btn my-0">
+                        <div className="navigation-toggle">
+                            <ul className="slider-social toggle-btn my-0">
                                 <li>
-                                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                                    <a href="#" className="sidemenu_btn" id="sidemenu_toggle">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -36,43 +36,43 @@ class Landing extends Component {
                         </div>
                     </nav>
 
-                    <div class="side-menu hidden">
+                    <div className="side-menu hidden">
 
                         <span id="btn_sideNavClose">
-                            <i class="las la-times btn-close"></i>
+                            <i className="las la-times btn-close"></i>
                         </span>
-                        <div class="inner-wrapper">
-                            <nav class="side-nav w-100">
-                                <a href="#slider-section" title="Logo" class="logo scroll navbar-brand">
+                        <div className="inner-wrapper">
+                            <nav className="side-nav w-100">
+                                <a href="#slider-section" title="Logo" className="logo scroll navbar-brand">
                                     <img src="/vendor/moonitemplate/images/mooni_logo.png" alt="logo" />
                                 </a>
-                                <ul class="navbar-nav text-capitalize">
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#slider-section">Home</a>
+                                <ul className="navbar-nav text-capitalize">
+                                    <li className="nav-item">
+                                        <a className="nav-link scroll" href="#slider-section">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#about">About Us</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link scroll" href="#about">About Us</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#partner">Partner</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link scroll" href="#partner">Partner</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#roadmap">Roadmap</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link scroll" href="#roadmap">Roadmap</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" class="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
+                                    <li className="nav-item">
+                                        <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" className="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
                                     </li>
                                 </ul>
                             </nav>
 
-                            <div class="side-footer w-100">
-                                <ul class="social-icons-simple">
-                                    <li><a class="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
-                                    <li><a class="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i class="fab fa-telegram-plane"></i> </a> </li>
-                                    <li><a class="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i class="fab fa-medium"></i> </a> </li>
+                            <div className="side-footer w-100">
+                                <ul className="social-icons-simple">
+                                    <li><a className="social-icon wow fadeInRight" href="https://twitter.com/moonidefi" data-wow-delay="300ms"><i className="fab fa-twitter"></i> </a> </li>
+                                    <li><a className="social-icon wow fadeInLeft" href="https://t.me/moonichat" data-wow-delay="300ms"><i className="fab fa-telegram-plane"></i> </a> </li>
+                                    <li><a className="social-icon wow fadeInRight" href="https://moonidefi.medium.com/" data-wow-delay="300ms"><i className="fab fa-medium"></i> </a> </li>
                                 </ul>
                                 <p>&copy; 2021 M O O N I DeFi - Binance Smart Chain</p>
                             </div>
@@ -80,23 +80,23 @@ class Landing extends Component {
                     </div>
                     <a id="close_side_menu" href="javascript:void(0);"></a>
 
-                    <div class="quote-content hidden animated-modal stake-modal" id="animatedModal">
+                    <div className="quote-content hidden animated-modal stake-modal" id="animatedModal">
 
-                        <div class="title mb-5">
-                            <h2><span class="text-pink js-rotating">$, $</span> 100.00</h2>
+                        <div className="title mb-5">
+                            <h2><span className="text-pink js-rotating">$, $</span> 100.00</h2>
                         </div>
-                        <form class="contact-form" id="modal-contact-form-data">
-                            <div class="row">
+                        <form className="contact-form" id="modal-contact-form-data">
+                            <div className="row">
 
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label class="col-3">Amount</label>
-                                        <input class="form-control col-8" id="amount" name="amount" required=""
+                                <div className="col-md-12">
+                                    <div className="form-group row">
+                                        <label className="col-3">Amount</label>
+                                        <input className="form-control col-8" id="amount" name="amount" required=""
                                             type="number" />
                                     </div>
-                                    <div class="row">
-                                        <label class="col-3">Period</label>
-                                        <select class="col-8 stake-period-single" name="period">
+                                    <div className="row">
+                                        <label className="col-3">Period</label>
+                                        <select className="col-8 stake-period-single" name="period">
                                             <option value="AL">1 day</option>
                                             <option value="WY">1 week</option>
                                             <option value="WY">1 month</option>
@@ -104,8 +104,8 @@ class Landing extends Component {
                                     </div>
                                 </div>
 
-                                <div class="col-md-12" style={{ marginTop: "20px" }}>
-                                    <a href="stake.html" class="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="stake_submit_btn">Stake</a>
+                                <div className="col-md-12" style={{ marginTop: "20px" }}>
+                                    <a href="stake.html" className="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="stake_submit_btn">Stake</a>
                                 </div>
                             </div>
                         </form>
