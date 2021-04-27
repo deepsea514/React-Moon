@@ -10,18 +10,21 @@ import Footer from "./components/footer";
 class App extends Component {
     render() {
         return (
-            <BrowserRouter basename="">
-                <Switch>
-                    {/* <Loader /> */}
-                    <Header />
+            <>
+                {/* <Loader /> */}
+                <Header />
 
-                    <Route path="/balance" component={Balance} />
-                    <Route path="/stake" component={Stake} />
-                    <Route path="/" component={Landing} />
+                <BrowserRouter basename="">
+                    <Switch>
+                        <Route path="/balance" component={Balance} />
+                        <Route path="/stake" component={Stake} />
+                        <Route path="/" component={Landing} />
 
-                    <Footer />
-                </Switch>
-            </BrowserRouter>
+                    </Switch>
+                </BrowserRouter>
+
+                <Footer />
+            </>
         );
     }
 }
