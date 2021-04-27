@@ -1,0 +1,10 @@
+.range-slider input {
+    width: 100%;
+    margin-bottom: 0;
+}
+.range-slider .datalist {
+    color: #797979;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0px;
+}
