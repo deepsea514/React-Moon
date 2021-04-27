@@ -17,16 +17,16 @@ class Stake extends Component {
                                     </div>
                                     <div>
                                         <div className="mb-5">
-                                            <button className="btn btn-medium btn-rounded btn-light" style="width: 140px;height: 40px;line-height: 18px;">Harvest</button>
+                                            <button className="btn btn-medium btn-rounded btn-light" style={{ width: "140px", height: "40px", lineHeight: "18px" }}>Harvest</button>
                                         </div>
                                         <div>
-                                            <button className="btn btn-medium btn-rounded btn-light" style="width: 140px;height: 40px;line-height: 18px;">Compound</button>
+                                            <button className="btn btn-medium btn-rounded btn-light" style={{ width: "140px", height: "40px", lineHeight: "18px" }}>Compound</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="text-center my-3">
-                                    <button className="btn btn-medium btn-rounded btn-secondary mr-3" style="width: 40%;height: 50px;line-height: 18px;">Unstake MOONI</button>
-                                    <button className="btn btn-medium btn-rounded btn-pink" data-toggle="modal" data-target="#depositModal" style="width: 50px;height: 50px;line-height: 18px;"><i className="fa fa-plus"></i></button>
+                                    <button className="btn btn-medium btn-rounded btn-secondary mr-3" style={{ width: "40%", height: "50px", lineJeight: "18px" }}>Unstake MOONI</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink" data-toggle="modal" data-target="#depositModal" style={{ width: "50px", height: "50px", lineJeight: "18px" }}><i className="fa fa-plus"></i></button>
                                 </div>
                                 <div className="d-flex justify-content-between">
                                     <p className="text-purple mb-0">APR:</p>
@@ -44,9 +44,9 @@ class Stake extends Component {
                             <div className="card-footer">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <div>
-                                        <button className="btn btn-medium btn-rounded btn-purple-outline" style="width: 100px;height: 40px;line-height: 18px;"><i className="fas fa-check-circle"></i> Core</button>
+                                        <button className="btn btn-medium btn-rounded btn-purple-outline" style={{ width: "100px", height: "40px", lineHeight: "18px" }}><i className="fas fa-check-circle"></i> Core</button>
                                     </div>
-                                    <div className="d-flex text-grey font-weight-600" style="cursor: pointer;">
+                                    <div className="d-flex text-grey font-weight-600" style={{ cursor: "pointer" }}>
                                         <p className="mb-0 mr-2">Hide</p>
                                         <div>
                                             <i className="fas fa-chevron-down"></i>
@@ -87,11 +87,11 @@ class Stake extends Component {
                                 <div className="d-flex justify-content-between align-items-center mb-4">
                                     <input className="form-control" type="number" step="0.0001" value="0" />
                                     <p className="mb-0 text-pink font-weight-600">MOONI</p>
-                                    <button className="btn btn-medium btn-rounded btn-pink" style="height: 30px;line-height: 8px;padding: 10px 20px;">Max</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink" style={{ height: "30px", lineHeight: "8px", padding: "10px 20px" }}>Max</button>
                                 </div>
                                 <div className="text-center">
-                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style="width: 44%;height: 54px;line-height: 18px;">Cancel</button>
-                                    <button className="btn btn-medium btn-rounded btn-pink" style="width: 44%;height: 54px;line-height: 18px;">Confirm</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Cancel</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Confirm</button>
                                 </div>
                             </div>
                         </div>

@@ -37,7 +37,7 @@ class Balance extends Component {
                                         <p className="text-white mb-1">-<i className="far fa-question-circle ml-5"></i></p>
                                     </div>
                                 </div>
-                                <div className="col-1 d-flex dropdown-icon text-grey" style="cursor: pointer;" data-toggle="collapse" data-target="#single_dropdown_div_1">
+                                <div className="col-1 d-flex dropdown-icon text-grey" style={{ cursor: "pointer" }} data-toggle="collapse" data-target="#single_dropdown_div_1">
                                     <p className="mb-0 mr-2">Details</p>
                                     <div>
                                         <i className="fas fa-chevron-down"></i>
@@ -51,7 +51,7 @@ class Balance extends Component {
                                             <p className="mb-1 text-grey font-14">MOONI EARNED</p>
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <p className="mb-0 text-pink font-22 font-weight-700">0.086</p>
-                                                <button className="btn btn-medium btn-rounded btn-pink" style="width: 40%;height: 50px;line-height: 18px;">Harvest</button>
+                                                <button className="btn btn-medium btn-rounded btn-pink" style={{ width: "40%", height: "50px", "lineJeight": "18px" }}>Harvest</button>
                                             </div>
                                         </div>
                                     </div>
@@ -63,10 +63,10 @@ class Balance extends Component {
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <p className="mb-0 text-pink font-22 font-weight-700">7.365</p>
                                                 <div className="d-flex">
-                                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-2" data-toggle="modal" data-target="#stakeModal" style="width: 50px;height: 50px;line-height: 18px;">
+                                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-2" data-toggle="modal" data-target="#stakeModal" style={{ width: "50px", height: "50px", lineHeight: "18px" }}>
                                                         <i className="fa fa-plus"></i>
                                                     </button>
-                                                    <button className="btn btn-medium btn-rounded btn-pink-outline" data-toggle="modal" data-target="#unstakeModal" style="width: 50px;height: 50px;line-height: 18px;">
+                                                    <button className="btn btn-medium btn-rounded btn-pink-outline" data-toggle="modal" data-target="#unstakeModal" style={{ width: "50px", height: "50px", lineHeight: "18px" }}>
                                                         <i className="fa fa-minus"></i>
                                                     </button>
                                                 </div>
@@ -108,7 +108,7 @@ class Balance extends Component {
                                         <p className="text-white mb-1">-<i className="far fa-question-circle ml-5"></i></p>
                                     </div>
                                 </div>
-                                <div className="col-1 d-flex dropdown-icon text-grey" style="cursor: pointer;" data-toggle="collapse" data-target="#single_dropdown_div_2">
+                                <div className="col-1 d-flex dropdown-icon text-grey" style={{ cursor: "pointer" }} data-toggle="collapse" data-target="#single_dropdown_div_2">
                                     <p className="mb-0 mr-2">Details</p>
                                     <div>
                                         <i className="fas fa-chevron-down"></i>
@@ -122,7 +122,7 @@ class Balance extends Component {
                                             <p className="mb-1 text-grey font-14">MOONI EARNED</p>
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <p className="mb-0 text-pink font-22 font-weight-700">0.086</p>
-                                                <button className="btn btn-medium btn-rounded btn-pink" style="width: 40%;height: 50px;line-height: 18px;">Harvest</button>
+                                                <button className="btn btn-medium btn-rounded btn-pink" style={{ width: "40%", height: "50px", lineHeight: "18px" }}>Harvest</button>
                                             </div>
                                         </div>
                                     </div>
@@ -134,10 +134,10 @@ class Balance extends Component {
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <p className="mb-0 text-pink font-22 font-weight-700">7.365</p>
                                                 <div className="d-flex">
-                                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-2" data-toggle="modal" data-target="#stakeModal" style="width: 50px;height: 50px;line-height: 18px;">
+                                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-2" data-toggle="modal" data-target="#stakeModal" style={{ width: "50px", height: "50px", lineHeight: "18px" }}>
                                                         <i className="fa fa-plus"></i>
                                                     </button>
-                                                    <button className="btn btn-medium btn-rounded btn-pink-outline" data-toggle="modal" data-target="#unstakeModal" style="width: 50px;height: 50px;line-height: 18px;">
+                                                    <button className="btn btn-medium btn-rounded btn-pink-outline" data-toggle="modal" data-target="#unstakeModal" style={{ width: "50px", height: "50px", lineHeight: "18px" }}>
                                                         <i className="fa fa-minus"></i>
                                                     </button>
                                                 </div>
@@ -160,14 +160,14 @@ class Balance extends Component {
                                 </button>
                             </div>
                             <div className="modal-body has-error">
-                                <div className="invalid" style="background-color: #2b243a;padding: 14px;border-radius: 14px;">
+                                <div className="invalid" style={{ backgroundColor: "#2b243a", padding: "14px", borderRadius: "14px" }}>
                                     <div className="d-flex justify-content-between">
                                         <p className="mb-2 text-white font-14 font-weight-500">Stake</p>
                                         <p className="text-right mb-2 text-white font-14 font-weight-500">Balance: 0</p>
                                     </div>
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <input className="form-control" style="padding: 10px 0;" type="number" step="0.0001" value="0" />
-                                        <button className="btn btn-medium btn-rounded btn-pink" style="height: 30px;line-height: 8px;padding: 10px 20px;">Max</button>
+                                        <input className="form-control" style={{ padding: "10px 0" }} type="number" step="0.0001" value="0" />
+                                        <button className="btn btn-medium btn-rounded btn-pink" style={{ height: "30px", lineHeight: "8px", padding: "10px 20px" }}>Max</button>
                                         <p className="mb-0 text-pink font-weight-600">XED-BNB LP</p>
                                     </div>
                                 </div>
@@ -175,8 +175,8 @@ class Balance extends Component {
                                     <span className="font-14">No tokens to stake: get XED BNB LP</span>
                                 </div>
                                 <div className="text-center my-4">
-                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style="width: 44%;height: 54px;line-height: 18px;">Cancel</button>
-                                    <button className="btn btn-medium btn-rounded btn-secondary" style="width: 44%;height: 54px;line-height: 18px;">Confirm</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Cancel</button>
+                                    <button className="btn btn-medium btn-rounded btn-secondary" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Confirm</button>
                                 </div>
                                 <div className="text-center">
                                     <a href="#" className="text-purple font-weight-600">Get XED BNB LP<i className="fas fa-external-link-alt"></i></a>
@@ -195,20 +195,20 @@ class Balance extends Component {
                                 </button>
                             </div>
                             <div className="modal-body">
-                                <div className="mb-4" style="background-color: #2b243a;padding: 14px;border-radius: 14px;">
+                                <div className="mb-4" style={{ backgroundColor: "#2b243a", padding: "14px", borderRadius: "14px" }}>
                                     <div className="d-flex justify-content-between">
                                         <p className="mb-2 text-white font-14 font-weight-500">Unstake</p>
                                         <p className="text-right mb-2 text-white font-14 font-weight-500">Balance: 7.365</p>
                                     </div>
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <input className="form-control" style="padding: 10px 0;" type="number" step="0.0001" value="0" />
-                                        <button className="btn btn-medium btn-rounded btn-pink" style="height: 30px;line-height: 8px;padding: 10px 20px;">Max</button>
+                                        <input className="form-control" style={{ padding: "10px 0" }} type="number" step="0.0001" value="0" />
+                                        <button className="btn btn-medium btn-rounded btn-pink" style={{ height: "30px", lineHeight: "8px", padding: "10px 20px" }}>Max</button>
                                         <p className="mb-0 text-pink font-weight-600">XED-BNB LP</p>
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style="width: 44%;height: 54px;line-height: 18px;">Cancel</button>
-                                    <button className="btn btn-medium btn-rounded btn-secondary" style="width: 44%;height: 54px;line-height: 18px;">Confirm</button>
+                                    <button className="btn btn-medium btn-rounded btn-pink-outline mr-3" data-dismiss="modal" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Cancel</button>
+                                    <button className="btn btn-medium btn-rounded btn-secondary" style={{ width: "44%", height: "54px", lineHeight: "18px" }}>Confirm</button>
                                 </div>
                             </div>
                         </div>
