@@ -24,7 +24,7 @@ class Stake extends Component {
                         <div className="navigation-toggle">
                             <ul className="slider-social toggle-btn my-0">
                                 <li>
-                                    <a href="javascript:void(0);" className="sidemenu_btn" id="sidemenu_toggle">
+                                    <a href="#" className="sidemenu_btn" id="sidemenu_toggle">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -70,7 +70,7 @@ class Stake extends Component {
                             </div>
                         </div>
                     </div>
-                    <a id="close_side_menu" href="javascript:void(0);"></a>
+                    <a id="close_side_menu" href="#"></a>
                 </header>
 
                 <div id="stake-section" className="stake-section">
