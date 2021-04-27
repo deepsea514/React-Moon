@@ -116,7 +116,7 @@ class Stake extends Component {
                                         <button className="btn btn-medium btn-rounded btn-purple-outline" style={{ width: "100px", height: "40px", lineHeight: "18px" }}><i className="fas fa-check-circle"></i> Core</button>
                                     </div>
                                     <div className="d-flex dropdown-icon text-grey" style={{ cursor: "pointer" }} data-toggle="collapse" data-target="#single_dropdown_div">
-                                        <p className="mb-0 mr-2">Hide</p>
+                                        <p className="mb-0 mr-2">Details</p>
                                         <div>
                                             <i className="fas fa-chevron-down"></i>
                                         </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ScriptTag from 'react-script-tag';
+import Iframe from 'react-iframe'
 
 class Landing extends Component {
     render() {
@@ -314,44 +315,19 @@ class Landing extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <iframe width="640" height="320" data-original-width="640" data-original-height="320" src="https://www.thinglink.com/mediacard/1432446840933974017" type="text/html" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen="" scrolling="no" style={{ width: "100%", height: "650px" }}></iframe>
+                            <Iframe url="https://www.thinglink.com/mediacard/1432446840933974017"
+                            
+                                styles ="width: 100%; height: 650px"
+                                allowFullScreen
+                                scrolling={false}  
+                                />
+                            {/* <iframe width="640" height="320" data-original-width="640" data-original-height="320" 
+                            src="https://www.thinglink.com/mediacard/1432446840933974017" 
+                            type="text/html" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen="" scrolling="no" 
+                            style={{ width: "100%", height: "650px" }}></iframe> */}
                         </div>
                     </div>
                 </section>
-
-                <ScriptTag src="/vendor/vendor/js/bundle.min.js" />
-                <ScriptTag src="/vendor/vendor/js/popper.min.js" />
-
-                <ScriptTag src="/vendor/vendor/js/jquery-ui.bundle.js" />
-                <ScriptTag src="/vendor/vendor/js/jquery.appear.js" />
-                <ScriptTag src="/vendor/vendor/js/jquery.fancybox.min.js" />
-                <ScriptTag src="/vendor/vendor/js/owl.carousel.min.js" />
-                <ScriptTag src="/vendor/vendor/js/parallaxie.min.js" />
-                <ScriptTag src="/vendor/vendor/js/wow.min.js" />
-                <ScriptTag src="/vendor/vendor/js/jquery.cubeportfolio.min.js" />
-
-                <ScriptTag src="/vendor/vendor/js/jquery.themepunch.tools.min.js" />
-                <ScriptTag src="/vendor/vendor/js/jquery.themepunch.revolution.min.js" />
-                <ScriptTag src="/vendor/vendor/js/morphext.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.actions.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.carousel.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.kenburn.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.layeranimation.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.migration.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.navigation.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.parallax.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.slideanims.min.js" />
-                <ScriptTag src="/vendor/vendor/js/extensions/revolution.extension.video.min.js" />
-                <ScriptTag src="/vendor/https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo" />
-                <ScriptTag src="/vendor/moonitemplate/js/map.js" />
-                <ScriptTag src="/vendor/moonitemplate/js/isotope.pkgd.js" />
-                <ScriptTag src="/vendor/moonitemplate/js/modernizr.custom.97074.js" />
-                <ScriptTag src="/vendor/moonitemplate/js/jquery.hoverdir.js" />
-
-                <ScriptTag src="/vendor/vendor/js/nicesellect.js" />
-
-                <ScriptTag src="/vendor/vendor/js/contact_us.js" />
-                <ScriptTag src="/vendor/moonitemplate/js/script.js" />
             </>
         );
     }
