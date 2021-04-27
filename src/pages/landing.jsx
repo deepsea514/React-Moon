@@ -15,7 +15,8 @@ class Landing extends Component {
                             <div className="collapse navbar-collapse" id="megaone">
                                 <div className="navbar-nav ml-auto">
                                     <a className="nav-link scroll line" href="#slider-section">Home</a>
-                                    <a className="nav-link line" href="" data-animation-duration="500" data-fancybox data-src="#animatedModal">Stake</a>
+                                    <a className="nav-link line" href="/stake" >Stake</a>
+                                    <a className="nav-link line" href="/balance" >Farming</a>
                                     <a className="nav-link scroll line" href="#about">About</a>
                                     <a className="nav-link scroll line" href="#partner">Partner</a>
                                     <a className="nav-link scroll line" href="#roadmap">Roadmap</a>
