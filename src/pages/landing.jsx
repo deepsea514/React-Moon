@@ -315,8 +315,10 @@ class Landing extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
+                        
                             <Iframe url="https://www.thinglink.com/mediacard/1432446840933974017"
-                            
+                                width="640" 
+                                height="650"
                                 styles ="width: 100%; height: 650px"
                                 allowFullScreen
                                 scrolling={false}  
