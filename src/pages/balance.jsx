@@ -13,7 +13,7 @@ class Balance extends Component {
 
                             <div className="collapse navbar-collapse" id="megaone">
                                 <div className="navbar-nav ml-auto">
-                                    <a className="nav-link line" href="">Home</a>
+                                    <a className="nav-link line" href="/">Home</a>
                                     <a className="nav-link line" href="/stake">Stake</a>
                                     <a className="nav-link line" href="#" data-toggle="modal" data-target="#connectWalletModal">Connect Wallet</a>
                                     <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xed438051437c22a9ef249b68c7e292435fe8b858" target="_blank" className="btn btn-medium btn-rounded btn-pink nav-button">Buy</a>
